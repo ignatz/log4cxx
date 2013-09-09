@@ -1,0 +1,41 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# # Compiled Dynamic libraries
+*.so
+*.dylib
+
+# # Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# http://www.gnu.org/software/automake
+
+Makefile.in
+Makefile
+
+# http://www.gnu.org/software/autoconf
+
+/autom4te.cache
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+
+# log4cxx specifics
+.deps/
+.libs/
+/config.*
+
+liblog4cxx.pc
+libtool
+ltmain.sh
+src/main/include/log4cxx/log4cxx.h
+src/main/include/log4cxx/private/log4cxx_private.h
+src/site/doxy/Doxyfile
+src/site/doxy/manual/
