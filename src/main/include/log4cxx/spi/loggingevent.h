@@ -153,6 +153,8 @@ namespace log4cxx
                         */
                         bool getMDC(const LogString& key, LogString& dest) const;
 
+                        typedef spi::KeySet KeySet;
+
                         /**
                         * Returns the set of of the key values in the MDC for the event.
                         * The returned set is unmodifiable by the caller.
@@ -167,8 +169,6 @@ namespace log4cxx
                         or asynchronous logging.
                         */
                         void getMDCCopy() const;
-
-                        typedef spi::KeySet KeySet;
                         /**
                         * Return a previously set property.
                         * @param key key.
